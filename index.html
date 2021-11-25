@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Animated Menu</title>
+</head>
+<body>
+    <div class="toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <script>
+        let menutoggle = document.querySelector('.toggle');
+        menutoggle.onclick = function() {
+            menutoggle.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
